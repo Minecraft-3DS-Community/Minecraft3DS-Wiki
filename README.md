@@ -1,5 +1,10 @@
 # Minecraft3DS-Wiki
-![alt text](https://github.com/Minecraft-3DS-Community/Minecraft3DS-Wiki/blob/main/assets/images/mc3dsmoddingwiki.png?raw=true)
-- Work in progress wiki for modding mc3ds.
+![alt text](https://github.com/pizza-beep/Arctic-Expeditions-MC3DS/blob/main/Arctic%20Adventures%20logo.pngraw=true)
+A mod fleshing out the snowy biomes of the game.
 
-## [Link to wiki](https://minecraft-3ds-community.github.io/Minecraft3DS-Wiki/index.html)
+## What does this mod do?
+Reworks fishing loot tables
+Adds breedable polar bears
+New structure: Polar tower
+Snowballs travel faster
+New food item: Winter root
