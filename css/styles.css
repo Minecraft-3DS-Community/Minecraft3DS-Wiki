@@ -133,18 +133,18 @@ zoom: 115%;
 }
 
 .wiki-logo {
-  position:absolute;
-  left: 30%;  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2;  
   text-decoration: none;  
   max-width: 400px;
-  padding-left: 4rem;   
   height: auto;
 }
 
 .settings-icon {
   position:absolute;
-  left: 95%;
+  right: 10px;
   z-index: 2;  
   width: 50;
   height: 50px;
