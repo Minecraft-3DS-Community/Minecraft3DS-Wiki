@@ -25,16 +25,16 @@
     <h1>How to Modify Game Audio</h1>
     <p>You can replace in-game Audio with your own Custom SFX/Ambiance using CATool.</p>
 
-    <ol>
-      <li>Download and Extract CATool or Update to v2.4 via the <code>--upd</code> flag after calling the script. Example: <code>python CATool.py --upd</code>.</li>
-      <li>Extract the <code>CombinedAudio.bin</code> Archive File using the <code>--eca</code> Flag.</li>
-      <li>Extract the Header using the <code>--gh</code> Flag.</li>
-      <li>Ensure your Audio file is lower-quality. As analog Audio (*.dsp and *.fsb) can be large, a bit-rate of roughly 96kbps is recommended.</li>
-      <li>Convert your Audio to Wave format if necessary.</li>
-      <li>Convert your new Wave Audio File to <code>*.dsp</code> format.</li>
-      <li>Convert your new <code>*.dsp</code> Audio to FMOD Sound Bank Format <code>*.fsb</code>.</li>
-      <li>Add Padding as needed for Audio, using the <code>--ap</code> Flag for automation.</li>
-      <li>Replace the segment file of your choice. The replacement file must have the same name and file-size as the original (e.g., replacing <code>segment_118.fsb</code> requires deleting the original and using the same name).</li>
+    <ol style="line-height: 1.4;">
+      <li>Download and Extract CATool or Update to v2.4 via the <code>--upd</code> flag after calling the script. Example: <code>python CATool.py --upd</code>.</li><br>
+      <li>Extract the <code>CombinedAudio.bin</code> Archive File using the <code>--eca</code> Flag.</li><br>
+      <li>Extract the Header using the <code>--gh</code> Flag.</li><br>
+      <li>Ensure your Audio file is lower-quality. As analog Audio (*.dsp and *.fsb) can be large, a bit-rate of roughly 96kbps is recommended.</li><br>
+      <li>Convert your Audio to Wave format if necessary.</li><br>
+      <li>Convert your new Wave Audio File to <code>*.dsp</code> format.</li><br>
+      <li>Convert your new <code>*.dsp</code> Audio to FMOD Sound Bank Format <code>*.fsb</code>.</li><br>
+      <li>Add Padding as needed for Audio, using the <code>--ap</code> Flag for automation.</li><br>
+      <li>Replace the segment file of your choice. The replacement file must have the same name and file-size as the original (e.g., replacing <code>segment_118.fsb</code> requires deleting the original and using the same name).</li><br>
       <li>Rebuild the <code>CombinedAudio.bin</code> Archive File using the <code>--rca</code> Flag. Ensure you have previously dumped the Header using <code>--gh</code>.</li>
     </ol>
 
