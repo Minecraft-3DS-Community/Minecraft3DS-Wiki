@@ -138,24 +138,31 @@ zoom: 115%;
   transform: translateX(-50%);
   z-index: 2;  
   text-decoration: none;  
-  max-width: 400px;
+  width: 400px;
+  max-width: 100%;
   height: auto;
+  justify-content: center;
 }
 
 .settings-icon {
   position:absolute;
   right: 10px;
   z-index: 2;  
-  width: 50;
-  height: 50px;
+  width: 50px;
+  height: auto;
+  max-width: 10%;
   padding-top: 1.3rem;   
   cursor: pointer;
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
+  /* wyndchyme was here. These image-renderings all override each other (meaning they do nothing.) */
 
   /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  /* wyndchyme was here. This should be "-webkit-image-rendering". */
+  /* Since this image rendering setting doesn't exist, it defaults to 'auto', which makes even the 'pixelated' image rendering specified on line 157 irrelevant. */
   image-rendering: -webkit-optimize-contrast;  
+
 }
 
 /* Settings Menu Modal */
