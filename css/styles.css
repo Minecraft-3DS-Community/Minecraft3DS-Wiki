@@ -62,15 +62,15 @@ body {
   table {
     border-collapse: collapse;
     border-style: ridge;
-    margin-left: 10%;      
-    width: 80%;
-    border-color: #dddddd;    
+    padding-left: 10px;  
+    width: 100%;
+    border-color: #dddddd;
   }    
   td, th {
     border: 1px solid;
     text-align: center;
     background-color: #313233;
-    padding: 6px;     
+    padding: 6px;   
   }
   main {
     background-color: #222;
@@ -100,19 +100,7 @@ zoom: 115%;
     border-bottom: 3px solid #000;    
     animation: slide 120s linear infinite; /* remove this line to make it static again */
   }
-  table {
-    border-collapse: collapse;
-    border-style: ridge;
-    margin-left: 10%;      
-    width: 80%;
-    border-color: #101010;    
-  }  
-  td, th {
-    border: 1px solid;
-    text-align: center;
-    background-color: #888;
-  padding: 6px;
-  }
+  /* wyndchyme was here. Who defined "table" and "td, th" twice here? To hell with you. */
 
   .grid-container {
     background-color: inherit; 
