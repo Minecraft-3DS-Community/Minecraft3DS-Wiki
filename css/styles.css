@@ -252,6 +252,18 @@ border-bottom-color: transparent;
   margin-right: 10%;
 }
 
+a {
+  color: skyblue;
+}
+
+a:visited {
+  color: skyblue;
+}
+
+a:hover {
+  color: rgb(67, 136, 163);
+}
+
 /* #toc_container {
   display: table;
   font-size: 95%;
