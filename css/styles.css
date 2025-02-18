@@ -16,6 +16,7 @@
   margin: auto;
   overflow:hidden;  
 }
+/* wyndchyme was here. This should really be done with flex and not grid but it's too late now. */
 
 /* Card Styles */
 
