@@ -265,7 +265,7 @@ a:hover {
   color: rgb(67, 136, 163);
 }
 
-/* #toc_container {
+#toc_container {
   display: table;
   font-size: 95%;
   margin-bottom: 1em; 
@@ -280,4 +280,4 @@ a:hover {
 
 #toc_container li, #toc_container ul, #toc_container ul li{
   list-style: outside none none !important;
-} */
+}
