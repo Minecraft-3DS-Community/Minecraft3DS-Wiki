@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Editing Audio</title>
+  <title>Unistore Manual</title>
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -22,29 +22,62 @@
     </header>
 
   <main>
-    <h2>Installing & Updating UniStore Content</h2>
-    <p>How to edit the UniStore and download content.</p>
+    <h2>Unistore Manual</h2>
+    <h3>Installing the Unistore</h3>
+    <p>Your console needs to have custom firmware (CFW) to continue. If you do not have it already, you can get it by following this guide: <a href="https://3ds.hacks.guide/">https://3ds.hacks.guide/</a>.</p>
+    
+    <p>If you do not have the Universal Updater, then please download and install it from here: <a href="https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.2.6">Universal Updater</a></p>
+    
+    <p>Make sure any other Homebrew is up to date, mainly Luma3DS: <a href="https://github.com/LumaTeam/Luma3DS/releases">Luma3DS</a></p>
+    
+    <p>Finally, in order for mods to work, Game Patching needs to be enabled in the Luma Config.</p>
+
+    <ul>
+      <li>Power off the console</li>
+      <li>Turn on the console while holding Select to open the Luma Config</li>
+      <li>Use the D-Pad to navigate to "Enable game patching" and press A (it should have an [X] next to it)</li>
+      <li>Press the Start button to exit and save.</li>
+    </ul>
+    
+    <p>Then you can install the Unistore by opening the Universal Updater, and going to Settings > Select Unistore > Add, and selecting the Minecraft 3DS Community Unistore in the list of recommended Unistores.</p>
+    
+    <h3>Using the Unistore</h3>
+    <p>Installing a mod is simple, just press A on the mod you want, select the sub-mod, and choose the region of your game. Then you click "Confirm" and go to the queue and accept any pop-ups after reading them. The mod you just installed should show up in the game, no extra steps needed. To delete mods, find the "Customization Removal" mod, and choose which type of mod you want to remove. "All content" removes any modifications to the game, it does not delete your worlds or any save data. If you install another unistore with the mc3ds unistore it should be in the "choose unistore" menu.</p>
+    
+    <h3>Mods aren't working?</h3>
+    <p>These are common fixes for Mods not working for Minecraft 3DS.</p>
+    
+    <h4>DLC/Update + Game:</h4>
+    <p>Sometimes if you have a region-free game or DLC/update and a USA/EUR/JPN copy of Minecraft 3DS. They will cause mods to not fully work or at all. Make sure you have everything matching the same region, and nothing is amiss/mismatched.</p>
+    
+    <h4>LCL:</h4>
+    <ul>
+      <li>Power off the console</li>
+      <li>Turn on the console while holding Select to open the Luma Config</li>
+      <li>Use the D-Pad to navigate to "Enable game patching" and press A (it should have an [X] next to it)</li>
+      <li>Press the Start button to exit and save.</li>
+    </ul>
+    <p>If the option doesn't show an [X] on Game Patching, then it's disabled and needs to be enabled.</p>
+    
+    <h4>Download Mods for your game's region:</h4>
+    <p>Make sure you installed the correct region of the mod.</p>
+    
+    <h4>Combatting Mods:</h4>
+    <p>Some Mods such as Skyblock+ (Plus) and Amplified World Generation combat each other, and cannot be installed together on the same system.</p>
+    
+    <h4>Game Version:</h4>
+    <p>Almost all of the mods for Minecraft New Nintendo 3DS Edition were made for Patch v1.9.19.</p>
+    
+    <h4>Incorrectly Made Mods:</h4>
+    <p>Some mods are made incorrectly and some functions might not work if the developer did not do rigorous testing.</p>
+    
+    <h4>Mods not installing:</h4>
+    <p>If your mods aren't installing from the Minecraft 3DS Unistore, you should try reinstalling the unistore.</p>
+    
+    <h4>Still Having Problems?</h4>
+    <p>Share your thoughts in the Discord, we're always active and ready to help. Just give us some time, and we'll get back to you.</p>
   </main>
- <!-- Settings Menu Modal -->
-<!--wyndchyme was here. What's with all these comments?-->
- <div class="settings-modal" id="settingsModal">
-  <div class="settings-menu">
-    <h2>Settings</h2>
-    <label>
-      <input type="checkbox" id="themeToggle">
-      Toggle Dark/Light Mode
-    </label>
-<!--       <label>
-      <input type="checkbox" id="bgImageToggle">
-      Enable Background Image
-    </label> -->
-    <label>
-      <input type="checkbox" id="blurToggle">
-      Enable Background Blur
-    </label>
-    <button id="closeSettings">Close</button>
-  </div>
-</div>
-<script src="../js/main.js"></script>   
+
+  <script src="../js/main.js"></script>   
 </body>
 </html>
